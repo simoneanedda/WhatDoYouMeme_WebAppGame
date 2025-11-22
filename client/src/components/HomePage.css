@@ -1,0 +1,28 @@
+.home-page {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+  }
+  
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}

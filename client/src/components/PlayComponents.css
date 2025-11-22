@@ -1,0 +1,114 @@
+
+  .meme-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .meme-image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .captions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .caption-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .caption-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .round-summary {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  .correct-text {
+    color: green;
+  }
+  
+  .wrong-text {
+    color: red;
+  }
+  
+  .correct-captions {
+    margin-top: 10px;
+  }
+  
+  .game-summary {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  .play-again-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-again-link:hover {
+    background-color: #218838;
+  }
+  
+  .timer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+  }
+  .game-summary {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .correctly-answered {
+    margin-top: 20px;
+  }
+  
+  .answered-memes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .answered-meme-item {
+    margin-top: 10px;
+  }
+  
+  .meme-thumbnail {
+    max-width: 100px; 
+  }
+  
+  .caption-text {
+    font-style: italic; 
+  }
